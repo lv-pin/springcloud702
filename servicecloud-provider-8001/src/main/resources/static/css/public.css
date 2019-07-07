@@ -1,0 +1,40 @@
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	margin: 0;
+	font-size: 14px;
+	font-family: 'Microsoft Yahei', Arial;
+	color: #fff;
+	background-color: #120753;
+}
+h1,h3,ul,p{
+ 	margin: 0;
+ 	padding: 0;
+}
+ul{
+ 	list-style: none;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after { 
+	display: block;
+	clear: both;
+	content: ""; 
+}
+.hidden{
+  display: none;
+}

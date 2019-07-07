@@ -1,0 +1,98 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	margin: 0;
+	font-family: 'Microsoft Yahei', Arial;
+	background-color: #120753;
+    background: url(../images/login-bg.jpg) #120753 center no-repeat;
+}
+
+.login-main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 330px;
+	height: 430px;
+	padding: 30px 40px;
+	margin-top: -260px;
+	margin-left: -165px;
+    background: url(../images/loginbox-bg.png) center no-repeat;
+}
+.login-header{
+	width: 256px;
+    height: 31px;
+    background: url(../images/logo-01.png) center no-repeat;
+}
+.login-box{
+	position: relative;
+	margin-top: 40px;
+}
+/*������ʾ*/
+.login-box .error-tips{
+	position: absolute;
+	top: -30px;
+	left: 15px;
+	color: #e92b61;
+}
+.login-box .error-tips:before{
+	position: absolute;
+	top: 3px;
+	left: -10px;
+	color: #e92b61;
+	content: '*';
+}
+/*�����*/
+.login-box .lg-input{
+	display: block;
+    width: 100%;
+    height: 38px;
+    padding: 4px 22px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #148abf;
+    border-radius: 16px;
+    box-shadow: 0px 4px 8px #1a0e85;
+}
+.login-box .lg-input:focus{
+	outline: none;
+}
+/*��֤��*/
+.login-box .verify-code{
+	width: 60%;
+}
+.login-box .verifycode-img{
+	float: right;
+	margin: 4px 1px 4px 0;
+}
+/*��¼��ť*/
+.login-box .lg-btn{
+	height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+    text-align: center;
+	color: #eee;
+	border: none;
+	background-color: #316ce3;
+}
+.login-box .lg-btn:hover{
+	background-color: #2058c9;
+}
+.login-box .lg-btn:active{
+	background-color: #1142a6;
+}
+
+.login-footer{
+	position: absolute;
+	width: 134px;
+    height: 23px;
+    left: 90px;
+    bottom: 30px;
+    background: url(../images/logo-02.png) center center no-repeat;
+}

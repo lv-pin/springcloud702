@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+build:
+  profile:
+    id: dev
+#spring:
+#  profiles:
+#    active: "@spring.profiles.active@"
+#build:
+#  profile:
+#    id: "@build.profile.id@"

@@ -1,0 +1,59 @@
+*{
+	padding:0;
+	margin:0 auto;
+}
+body{
+	font-size:14px;
+	font-family:'Microsoft Yahei';
+	width: 100%;
+	background-color: #150649;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	bblr:expression(this.onFocus=this.blur());
+	outline-style:none;
+}
+#solutions_vue_root{
+	padding: 50px;
+	width: 800px;
+}
+.contents_title{
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffa500;
+}
+ul{
+	list-style: none;
+}
+.contents_lists{
+	border: solid 1px white;
+	color: white;
+	padding: 20px;
+	margin-top:20px;
+	line-height: 25px;
+	border-radius: 5px;
+}
+.contents_lists_importent{
+	color: orange;
+}
+.download_link {
+    color: lightgoldenrodyellow;
+    font-size: 14px;
+    font-weight: normal;
+}
+.download_link:hover {
+    color: #00b7ee;
+}
+.monitor_kind_text,
+.app_id_text,
+.emergency_contacts_text,
+.step_text {
+	color: #ffa500;
+}
+
+
